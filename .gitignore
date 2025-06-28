@@ -1,0 +1,4 @@
+build
+input.txt
+coverage_report
+coverage*.info

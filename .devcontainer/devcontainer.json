@@ -1,0 +1,16 @@
+{
+	"name": "C++",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"cmake.buildDirectory": "${workspaceFolder}/build",
+				"cmake.sourceDirectory": "${workspaceFolder}",
+				"cmake.configureOnOpen": true,
+				"cmake.generator": "Unix Makefiles"
+			}
+		}
+	}
+}
