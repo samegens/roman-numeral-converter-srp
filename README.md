@@ -11,3 +11,7 @@
     make
     ./convert MCMXCIX
     ```
+
+## Notes
+
+- The converter does not validate: it converts IMI to 1002 which it shouldn't do.
